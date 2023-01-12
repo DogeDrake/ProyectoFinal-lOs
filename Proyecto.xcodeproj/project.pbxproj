@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		280BC445297016DF0077CEF4 /* UserRutinasTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BC444297016DF0077CEF4 /* UserRutinasTableViewController.swift */; };
+		280BC447297016F30077CEF4 /* AddExerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BC446297016F30077CEF4 /* AddExerViewController.swift */; };
 		28FB4996296FF84A00AE16C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB4995296FF84A00AE16C6 /* AppDelegate.swift */; };
 		28FB4998296FF84A00AE16C6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB4997296FF84A00AE16C6 /* SceneDelegate.swift */; };
 		28FB499A296FF84A00AE16C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FB4999296FF84A00AE16C6 /* ViewController.swift */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		280BC444297016DF0077CEF4 /* UserRutinasTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserRutinasTableViewController.swift; path = "../../EverGym-IntegradorIOs/Proyecto/Proyecto/UserRutinasTableViewController.swift"; sourceTree = "<group>"; };
+		280BC446297016F30077CEF4 /* AddExerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddExerViewController.swift; path = "../../EverGym-IntegradorIOs/Proyecto/Proyecto/AddExerViewController.swift"; sourceTree = "<group>"; };
 		28FB4992296FF84A00AE16C6 /* Proyecto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Proyecto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28FB4995296FF84A00AE16C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28FB4997296FF84A00AE16C6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,7 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				28FB4995296FF84A00AE16C6 /* AppDelegate.swift */,
-				28FB49AB2970066200AE16C6 /* UserRutinasTableViewController.swift */,
 				28FB4997296FF84A00AE16C6 /* SceneDelegate.swift */,
 				28FB4999296FF84A00AE16C6 /* ViewController.swift */,
 				28FB499B296FF84A00AE16C6 /* Main.storyboard */,
@@ -70,6 +73,8 @@
 				28FB499E296FF84C00AE16C6 /* Assets.xcassets */,
 				28FB49A0296FF84C00AE16C6 /* LaunchScreen.storyboard */,
 				28FB49A3296FF84C00AE16C6 /* Info.plist */,
+				280BC444297016DF0077CEF4 /* UserRutinasTableViewController.swift */,
+				280BC446297016F30077CEF4 /* AddExerViewController.swift */,
 			);
 			path = Proyecto;
 			sourceTree = "<group>";
@@ -146,11 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5DBFB51296FFB56006CBD64 /* ViewControllerInicioSesion.swift in Sources */,
+				280BC447297016F30077CEF4 /* AddExerViewController.swift in Sources */,
 				E5DBFB5329700334006CBD64 /* ViewControllerRegistro.swift in Sources */,
 				28FB499A296FF84A00AE16C6 /* ViewController.swift in Sources */,
-				28FB49AC2970066200AE16C6 /* UserRutinasTableViewController.swift in Sources */,
+				280BC445297016DF0077CEF4 /* UserRutinasTableViewController.swift in Sources */,
 				28FB4996296FF84A00AE16C6 /* AppDelegate.swift in Sources */,
-				28FB49AA2970042D00AE16C6 /* AddExerViewController.swift in Sources */,
 				28FB4998296FF84A00AE16C6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
