@@ -118,7 +118,7 @@ class TableViewControllerMain: UITableViewController, UISearchBarDelegate, UISea
         {
             let indexPath = self.EjerTableView.indexPathForSelectedRow!
             
-            let tableViewDetail = segue.destination as? MainViewController
+            let tableViewDetail = segue.destination as? ViewControllerRecogeViewController
             
             self.EjerTableView.deselectRow(at: indexPath, animated: true)
         }

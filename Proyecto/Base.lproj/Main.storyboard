@@ -430,10 +430,10 @@
             </objects>
             <point key="canvasLocation" x="3789.8550724637685" y="-127.23214285714285"/>
         </scene>
-        <!--Main View Controller-->
+        <!--View Controller Recoge View Controller-->
         <scene sceneID="BKE-Ra-luU">
             <objects>
-                <viewController id="9g7-2c-cnf" customClass="MainViewController" customModule="Proyecto" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9g7-2c-cnf" customClass="ViewControllerRecogeViewController" customModule="Proyecto" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="GbP-fe-oWf">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
